@@ -72,7 +72,6 @@ if st.button("Tính thuế"):
         "tn_tinh_thue": thu_nhap_tinh_thue,
         "thue_tncn": thue_phai_nop,
         "thu_nhap_net": thuc_linh
-    }
 
 # --- GIAO DIỆN ỨNG DỤNG STREAMLIT ---
 st.image("LOGO.jpeg")
