@@ -151,7 +151,7 @@ if st.button("Tính thuế", type="primary"):
     with col1:
         st.metric(label="🔴 Thuế TNCN phải nộp", value=f"{kq['thue_tncn']:,.0f} VNĐ")
     with col2:
-        st.metric(label="🟢 Thu nhập sau thuế (Thực lĩnh)", value=f"{kq['thu_nhap_net']:,.0f} VNĐ")    )
+        st.metric(label="🟢 Thu nhập sau thuế (Thực lĩnh)", value=f"{kq['thu_nhap_net']:,.0f} VNĐ")    ')'
 
     # Tính thuế lũy tiến từng phần
     tax = 0
